@@ -8,16 +8,14 @@ Template.pollForm.events({
 
     // get the data we need from the form
     var newPoll = {
-      question: event.target.question.value,
+      question: event.target.sname.value,
       choices: [
-        {  text: event.target.choice1.value, votes: 0 },
-        {  text: event.target.choice2.value, votes: 0 },
-        {  text: event.target.choice3.value, votes: 0 }
+        {  text: event.target.tier.value, votes: 0 },
+        {  text: event.target.rank.value, votes: 0 },
       ]
     };
 
     // create the new poll
     Polls.insert(newPoll);
-  }
-
+  },
 });

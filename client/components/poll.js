@@ -25,6 +25,13 @@ Template.poll.events({
             { $inc: action }
         );
 
-    }
+    },
 
+    "click .delete": function () {
+        Meteor.call("deletePoll", this._id);
+    },
+
+    deletePoll: function (pollId) {
+        Polls.remove(pollId);
+    }
 });
