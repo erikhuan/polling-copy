@@ -10,12 +10,12 @@ Template.pollForm.events({
     var newPoll = {
       question: event.target.sname.value,
       choices: [
-        {  text: event.target.tier.value, votes: 0 },
-        {  text: event.target.rank.value, votes: 0 },
+        {  text: event.target.tier.value},
+        {  text: event.target.rank.value}
       ]
     };
 
     // create the new poll
     Polls.insert(newPoll);
-  },
+  }
 });
