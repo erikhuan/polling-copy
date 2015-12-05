@@ -5,8 +5,7 @@ Template.body.helpers({
 
     polls: function() {
         return Polls.find();
-    }
-
+    },
 });
 // adds index to each item
 UI.registerHelper('indexedArray', function(context, options) {

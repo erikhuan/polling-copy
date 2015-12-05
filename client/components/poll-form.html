@@ -1,5 +1,5 @@
 <template name="pollForm">
-
+  {{#if currentUser}}
   <form>
     <div class="form-group">
       <label>Summoner Name</label>
@@ -17,5 +17,5 @@
 
     <button type="submit" class="btn btn-lg btn-primary btn-block">Enter</button>
   </form>
-
+  {{/if}}
 </template>

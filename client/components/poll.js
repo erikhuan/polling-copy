@@ -4,12 +4,6 @@
 // attach events to our poll template
 Template.poll.events({
     "click .delete" : function () {
-        Meteor.call("deletePoll", this._id);
-    }
-});
-
-Meteor.methods({
-    deletePoll: function (pollId) {
-        Polls.remove(pollId);
+        Polls.remove(this._id);
     }
 });
