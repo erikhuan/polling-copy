@@ -116,8 +116,8 @@
       <file leaf-file-name="poll-form.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/components/poll-form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.59641254">
-              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.08189655">
+              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -155,8 +155,8 @@
         <option value="$PROJECT_DIR$/client/app.body.html" />
         <option value="$PROJECT_DIR$/client/components/poll.js" />
         <option value="$PROJECT_DIR$/client/components/poll.html" />
-        <option value="$PROJECT_DIR$/client/components/poll-form.html" />
         <option value="$PROJECT_DIR$/client/components/poll-form.js" />
+        <option value="$PROJECT_DIR$/client/components/poll-form.html" />
       </list>
     </option>
   </component>
@@ -565,12 +565,12 @@
       <workItem from="1444170804910" duration="5000" />
       <workItem from="1445852627789" duration="885000" />
       <workItem from="1449012735495" duration="3705000" />
-      <workItem from="1449178024834" duration="15177000" />
+      <workItem from="1449178024834" duration="16012000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24571000" />
+    <option name="totallyTimeSpent" value="25406000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="0" width="830" height="860" extended-state="0" />
@@ -1000,8 +1000,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/components/poll-form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59641254">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.08189655">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
           <folding />
         </state>
       </provider>

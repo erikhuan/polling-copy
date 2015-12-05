@@ -1,11 +1,24 @@
 <template name="pollForm">
   {{#if currentUser}}
   <form>
+    <label>IP</label>
+    <div>
+      <label>Mode</label>
+      <select name="mode">
+        <option value="5v5">5v5</option>
+        <option value="4v4">4v4</option>
+        <option value="3v3">3v3</option>
+        <option value="2v2">2v2</option>
+      </select>
+    </div>
+
+    <button class="btn btn-lg btn-primary btn-block">Teams</button>
+  </form>
+  <form>
     <div class="form-group">
       <label>Summoner Name</label>
       <input type="text" name="sname" class="form-control" placeholder="Player Name">
     </div>
-
     <div>
       <label>Tier</label>
       <select name="tier">
